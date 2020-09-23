@@ -1600,6 +1600,10 @@ input, select, textarea {
 		.box footer ul.actions {
 			margin-bottom: 0;
 		}
+		.box a:link{
+			text-decoration: none;
+
+		}
 
 /* Button */
 
@@ -2083,7 +2087,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		margin: 2.5em 0 0 0;
+		margin: 5em 0 0 0;
 	}
 
 		#nav > ul {
