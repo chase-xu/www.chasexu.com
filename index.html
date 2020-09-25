@@ -17,19 +17,23 @@
 				<!-- Header -->
 				<section id="header">
 					<!-- Logo -->
-					<h1><a href="right-sidebar.html">Chase Xu</a></h1>	
+					<h1><a href="index.html">Chase Xu</a></h1>	
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li class="current"><a   href="right-sidebar.html">Home</a></li>
+								<li class="current"><a   href="index.html">Home</a></li>
 								<li>
-									<a href="#">Projects & Works</a>
+									<a href="index.html#exp">Experiences</a>
+								</li>
+								<li>
+									<a href="index.html#project">Projects & Works</a>
 									<ul>
-										<li><a href="https://github.com/chase-xu/burger-builder" target="_blank">Buger Builder Web App</a></li>
-										<li><a href="https://github.com/chase-xu/SENG-265-Software-Development-Methods" target="_blank">Data Compression</a></li>
-										<li><a href="https://github.com/chase-xu/CSC360-Operation-System" target="_blank">File System Manipulation</a></li>
-										<li><a href="#" target="_blank">Movie Recommendation Filter</a></li>
-										<li><a href="https://github.com/chase-xu/TuTorme" target="_blank">TutorMe Web App</a></li>
+										<li><a href="index.html#burger">Buger Builder Web App</a></li>
+										<li><a href="index.html#tutor" >TutorMe Web App</a></li>
+										<li><a href="index.html#data">Data Compression</a></li>
+										<li><a href="index.html#file" >File System Manipulation</a></li>
+										<li><a href="index.html#movie">Movie Recommendation Filter</a></li>
+										<li><a href="index.html#air">Aircraft Shooting Game</a></li>
 										<!-- <li>
 											<a href="#">Phasellus consequat</a>
 											<ul>
@@ -42,8 +46,7 @@
 										</li> -->
 									</ul>
 								</li>
-								<li><a href="left-sidebar.html">Skills & Knowledge & Expertise</a></li>
-								<li><a href="no-sidebar.html">About Me</a></li>
+								<li><a href="index.html#skills">Skills & Knowledge & Expertise</a></li>
 							</ul>
 						</nav>				
 
@@ -74,11 +77,35 @@
 										<p>
 											Please feel free to shoot me an <a href="mailto: chase.xu@gmx.com">e-mail</a> if you want to know more about me.
 										</p>
-										<section>
+										<section id="exp">
+											<header>
+												<h3>Experiences</h3>
+											</header>
+											<h3>
+												Net zero Navigator development Co-op
+											</h3>
+											<h6>Jan 2020 – May 2020 | Victoria, BC</h6>
+											<ul>
+												<li>
+													Linux environment development using python, Pandas, SQL, geomeppy, and EngergyPlus.
+												</li>
+												<li>
+													Add functionalities to and manipulate data in <a href="https://besos.uvic.ca/" target="_blank">BESOS</a> (Building and Energy Simulation, Optimization and Surrogate-modelling). 
+												</li>
+												<li>
+													Net-zero navigator web app development and deployment with flask.
+												</li>
+												<li>
+													Test and build Neural Networking model that integrated with building model simulation using Scikit-learn.			
+												</li>
+											</ul>
+										</section>
+										<section id="project">
 											<header>
 												<h3>Projects</h3>
 											</header>
-											<h3>Burger Builder Web App</h3>
+											<h3 id="burger">Burger Builder Web App</h3>
+											<h6>May 2020 - Present | Victoria, BC</h6>
 											<p>
 												A react web app that could be used for customers to order burgers. It has the functionalities to complete 
 												the process of building burger, adding information, and sending order to firebase dynamically. Additionally, 
@@ -86,30 +113,76 @@
 											</p>
 											<p><span >Github link:</span> <a  style="text-decoration: underline;" href="https://github.com/chase-xu/burger-builder" target="_blank">Buger Builder Web App</a></p>
 										</section>
-										<section>
-											<header>
-												<h3>Tutor Me</h3>
-											</header>
+										<section id="tutor">
+										
+											<h3>Tutor Me</h3>
+											<h6>Oct 2019 – Present | Victoria, BC</h6>
+											
 											<p>
 												A react web app that helps students to find tutors nearby. It's still in developing with desired functionalities 
 												such as firebase authentication, data retrieval from firebase, and detect user's location.
 											</p>
-											<p><span >Github link:</span> <a  style="text-decoration: underline;" href="https://github.com/chase-xu/TuTorme" target="_blank">Buger Builder Web App</a></p>
+											<p><span >Github link:</span> <a  style="text-decoration: underline;" href="https://github.com/chase-xu/TuTorme" target="_blank">TutorMe</a></p>
 										</section>
-										<section>
-											<header>
+										<section id="data">
 												<h3>Data Compression</h3>
-											</header>
+												<h6>Aug 2018 - Dec 2018 | University of Victoria</h6>
 											<p>
-												Data
+												Software method development assignment: 
+												Data compression assignment in C, move-to-front and run length coding are used. 
+												Each time of compression should not be longer than 15s.
 											</p>
+											<p><span >Github link:</span> <a  style="text-decoration: underline;" href="https://github.com/chase-xu/SENG-265-Software-Development-Methods" target="_blank">Data Compression</a></p>
 										</section>
+										<section id="file">
+											
+												<h3>File System</h3>
+												<h6>Sep 2019 - Dec 2019 | University of Victoria</h6>
+											<p>
+												Operation system assignment: 
+												Given a file disk image, the following manipulations are performed in C: 
+												Display information of the file system by reading super blocks and FAT. 
+												Display the contents of the root directory or a given sub-directory in the file system. 
+												Copies a file from the file system to the current directory in Linux.
+											</p>
+											<p><span >Github link:</span> <a  style="text-decoration: underline;" href="https://github.com/chase-xu/CSC360-Operation-System" target="_blank">File System</a></p>
+										</section>
+										<section id="air">
+										<h3>Aircraft Shoot Game</h3>
+										<h6>May 2018 – Aug 2018 | Victoria, BC</h6>
+										<p>
+											A web based JavaScript game project mainly using interval and CSS. 
+											Player can control an aircraft using keyboard to shoot enemies, each enemy has its own behavior and hp point.
+										</p>
+										<p><span >Github link:</span> <a  href="https://github.com/chase-xu/SimpleGame" style="text-decoration: underline;" target="_blank" >Aircraft Shooting Game</a></p>
+									</section>
+										<section id="movie">
+												<h3>Movie Recommendation Filter</h3>
+												<h6>May 2020 – Aug 2020 | Victoria, BC</h6>
+											<p>
+												Team with four classmates to build and analyze a movie recommendation system using collaborative filtering algorithm.
+												Tow kind of Collaborative filtering algorithm were used: model based and item based. Item based CF was using cosine and Pearson similarity as approaches, 
+												and Model based CF was using SVD.
+											</p>
+											<p><span >Github link:</span> <a  style="text-decoration: underline; color:gray;" >Coming soon</a></p>
+										</section>
+										<!-- <section>
+												<h3>Online Teaching Platform Database design</h3>
+												<h6>Sep 2019 - Dec 2019 | University of Victoria</h6>
+											<p>
+												Team up with 4 students to build a database system for a fake online teaching platform.
+												With the relational schema diagram, PostgreSQL has been used to create dummy data table in the database.
+											</p>
+											<!-- <p><span >Github link:</span> <a  href="https://github.com/chase-xu/Human-Computer-Interaction-Prototype" style="text-decoration: underline;" target="_blank">Prototype</a></p> -->
+										<!-- </section> -->
+							
+										
 									</article>
 
 							</div>
 							<div class="col-4 col-12-medium">
-
 								<!-- Sidebar -->
+
 									<section class="box">
 										<a href="#" class="image featured"><img src="images/guitar.jpeg" alt="" /></a>
 										<header>
@@ -128,20 +201,10 @@
 											<a href="./assets/resume/ChaseXu_Resume.pdf" class="button alt" download ="Chase-Xu-Resume">Resume</a>
 										</footer>
 									</section>
-									<section class="box">
+									<section class="box" id="skills" style="position: relative; margin-top: 1cm;" >
 										<header>
 											<h3>Skills & Knowledge & Expertises</h3>
 										</header>
-										<!-- <ul class="divided">
-											<li>
-												<p>Most Experienced: </p>
-												<p>JavaScript, Java, Python, C, HTML, CSS, React.js.</p>
-											</li>
-											<li>
-												<p>Familiar:</p>
-												<p></p>
-											</li>
-										</ul> -->
 										<div>
 											<h5>Most Experienced: </h5>
 											<p>JavaScript, Java, Python, C, HTML, CSS, React.js.</p>
@@ -282,7 +345,7 @@
 			
 									<div id="copyright">
 										<ul class="links">
-											<li>Chase Xu. Last updated on Sep.24, 2020</li>
+											<li>Chase Xu. Last updated on Sep.25, 2020</li>
 										</ul>
 									</div>
 
